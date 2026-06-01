@@ -10,7 +10,7 @@ const swaggerDocument = {
       url: "http://localhost:5001"
     },
     {
-      url: "https://moneylog-backend.vercel.app"
+      url: "https://moneylog-backend-2p7qmnn11.vercel.app"
     }
   ],
   components: {
