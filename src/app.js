@@ -13,6 +13,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use((req, res, next) => {
+  // Manual OPTIONS preflight handler to avoid Vercel 500 errors
   if (req.method === 'OPTIONS') {
     return res.sendStatus(204);
   }
